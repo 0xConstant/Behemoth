@@ -45,6 +45,7 @@ If you are planning to conduct the next ransomware heist, perhaps, you shouldn't
 * Killing all open processes
 * Self-destruct 
 * Shortcut creation
+* Automatically delete users after 8 hours from database
 
 
 ### Usage
