@@ -82,7 +82,7 @@ Here is what happens when Behemoth is launched:
 10. The program has calculated the time from when it was started to 8 hours forward and notices you how long you have to pay the ransom
 11. Clicking "Check Payment" shows that payment has failed but it also sends another request to /victims route
 12. The victims table has a creation & expiration date which automatically removes users after 8 hours 
-13. Changing value of payment column from 0 to 1 means that you have paid your ransom 
+13. Changing value of payment column from 0 to 1 means that you have paid your ransom - use SQL database browser to open user_data.db
 14. When you click "Check Payment" again, you notice a message that says "Payment successful..."
 15. You will notice a progress bar showing the decryption process for files 
 16. Application exits and file self-destructs 
@@ -91,7 +91,7 @@ Here is what happens when Behemoth is launched:
 
 ### Code 
 The program by default runs as administrator, this can be changed but you will have to remove `SCWipe()` and all of it's calls. Here is how:
-1. Remove `SCWipe();` from line 455
+1. Remove `SCWipe();` from line 455 on Behemoth/Program.cs
 2. Find Behemoth/app.manifest and replace the following line:
 
 `<requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />`
