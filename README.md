@@ -41,7 +41,6 @@ If you are planning to conduct the next ransomware heist, perhaps, you shouldn't
 * UID generator
 * AES encryption/descryption
 * File rename
-* File shredding 
 * Shadow copies deletion
 * Killing all open processes
 * Self-destruct 
