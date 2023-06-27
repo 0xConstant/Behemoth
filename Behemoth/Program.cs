@@ -84,8 +84,8 @@ namespace Behemoth
 
 
         /// <summary>
-        /// This method takes an input file and an encrypton key, it returns an IV as a result. 
-        /// It also changes a file's extension, shreds the original content and delete it. 
+        /// This method takes an input file, an encrypton key and an IV and returns the output file's path. 
+        /// It also changes a file's extension and deletes the original file. 
         /// </summary>
         /// <param name="inputFile"></param>
         /// <param name="pass"></param>
@@ -143,7 +143,7 @@ namespace Behemoth
         /// </summary>
         /// <param name="inputFile"></param>
         /// <param name="pass"></param>
-        /// <param name="ivBase64"></param>
+        /// <param name="iv"></param>
         public static void AES_Decrypt(string inputFile, string pass, string iv)
         {
             try
