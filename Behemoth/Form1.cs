@@ -42,7 +42,7 @@ namespace Behemoth
             string uid = Properties.Settings.Default.uid;
             string resp = Program.CheckUser(uid);
 
-            if (resp.Contains("SUCCESS"))
+            if (resp != "" && (Regex.IsMatch(resp, @"\bsuccess\b", RegexOptions.IgnoreCase)))
             {
                 string[] KeyIVPairs = resp.Split('|');
                 string KEY = KeyIVPairs[1];
