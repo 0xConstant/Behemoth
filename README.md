@@ -12,6 +12,10 @@ The creator of this tool and author of this documentation assume no liability fo
 Behemoth's source code is pretty well explained and you won't need to know a lot to use it. The code is pretty well documented and if you hit a wall, contact me. Behemoth is not supposed to be used at a school talent show so make sure you upgrade it first.
 
 
+## Update - June 28th 2023 
+Behemoth's source code was reviewed by various researchers and malware developers and it was reported to have some massive shortcomings. All of those shortcomings along with some other bug fixes will be addressed in the next update. I will release an upgraded and more advanced version of Behemoth on August 16th 2023.
+
+
 ## Behemoth's limitations
 I would seriously hate to get arrested for creating Behemoth because it's not really that advanced, yet. 
 I don't want to be the guy that would tell you "I told you so" but I told you so, Behemoth does have a shitload of core limitations, here are all of them:
