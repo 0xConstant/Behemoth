@@ -12,10 +12,12 @@ The creator of this tool and author of this documentation assume no liability fo
 Behemoth's source code is pretty well explained and you won't need to know a lot to use it. The code is pretty well documented and if you hit a wall, contact me. Behemoth is not supposed to be used at a school talent show so make sure you upgrade it first.
 
 
+<br/>
 
 ## Update - June 30th 2023 
-Behemoth's has some major shortcomings and all of those bugs/issues will be addressed in the next massive release. The next release will contain a builder along with documentation, and more advanced techniques. The release date is not yet known but it will be in the next few months.
+Behemoth has some major shortcomings and all of those bugs/issues will be addressed in the next massive release. The next release will contain a builder along with documentation, and more advanced techniques. The release date is not yet known but it will be in the next few months.
 
+<br/>
 
 
 ## Behemoth's limitations
