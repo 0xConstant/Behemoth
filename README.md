@@ -9,13 +9,13 @@ The creator of this tool and author of this documentation assume no liability fo
 
 
 ## Description
-Behemoth's source code is pretty well explained and you won't need to know a lot to use it. The code is pretty well documented and if you hit a wall, contact me. Behemoth is not supposed to be used at a school talent show so make sure you upgrade it first.
+Behemoth's source code is pretty well explained and you won't need to know a lot to use it. The code is pretty well documented and if you hit a wall, contact me. 
 
 
 <br/>
 
-## Update - June 30th 2023 
-Behemoth has some major shortcomings and all of those bugs/issues will be addressed in the next massive release. The next release will contain a builder along with documentation, and more advanced techniques. The release date is not yet known but it will be in the next few months.
+## Update - July 17th 2023 
+I am not gonna release a better version of this ransomware, I am gonna keep that one for myself.
 
 <br/>
 
