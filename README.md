@@ -1,5 +1,6 @@
 # Behemoth - open source, minimal and a hack job at best
 Released on a good Tuesday for educational purposes.
+Update Sep 2nd 2023: A new version of Behemoth with a better code structure will be sold on c0nstant.ca in the next few days
 
 
 ## Disclaimer - Must read!
